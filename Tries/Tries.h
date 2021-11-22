@@ -3,9 +3,12 @@
 
 using namespace std;
 
-struct trienode
+struct trieNode
 {
 	char value;
-	trienode* next[26];
+	trieNode* next[26];
 	bool isWord;
 };
+trieNode* creatNode();
+void insert(trieNode* root, string s);
+trieNode* creatTrieFromFile(string filename);
