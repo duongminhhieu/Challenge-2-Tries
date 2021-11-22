@@ -142,7 +142,11 @@
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="Trie.h" />
+=======
+    <Text Include="Dic.txt" />
+>>>>>>> 1321de28394373093fd3ef504329cb7e3a13ad3f
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

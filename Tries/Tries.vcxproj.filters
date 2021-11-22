@@ -20,8 +20,14 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+<<<<<<< HEAD
     <ClInclude Include="Trie.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+=======
+    <Text Include="Dic.txt">
+      <Filter>Resource Files</Filter>
+    </Text>
+>>>>>>> 1321de28394373093fd3ef504329cb7e3a13ad3f
   </ItemGroup>
 </Project>
