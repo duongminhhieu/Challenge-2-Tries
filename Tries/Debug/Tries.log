@@ -1,3 +1,7 @@
 ﻿  Tries.cpp
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol _main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Debug\Tries.exe : fatal error LNK1120: 1 unresolved externals
+G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\Tries.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
+G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\main.cpp(8,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\main.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
+  Tries.vcxproj -> G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Debug\Tries.exe
