@@ -1,6 +1,7 @@
 #include<iostream>
 #include<string>
 #include<fstream>
+#include<queue>
 #include"tries.h"
 using namespace std;
 
@@ -48,4 +49,21 @@ trieNode* creatTrieFromFile(string filename)
 	}
 	ifs.close();
 	return root;
+}
+
+void findWord(trieNode* root, int a[],int count,queue<string> &q,string s)
+{
+	if (count >= 3 && root->isWord == 1)
+	{
+		q.push(s);
+	}
+	for (int i = 0; i < 26; i++)
+	{
+		if (a[i] > 0&& root->next[i] != NULL)
+		{
+			a[i] -= 1;
+			findWord(root->next[i], a,count+1,q,s+char('a'+i));
+			a[i] += 1;
+		}
+	}
 }
