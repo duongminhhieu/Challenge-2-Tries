@@ -29,7 +29,7 @@ void insert(trieNode* root, string s)
 		}
 		p = p->next[idx];
 	}
-	p->isWord = 1;
+	p->isWord = 1; // danh dau la ket thuc cua mot tu
 }
 
 trieNode* creatTrieFromFile(string filename)
@@ -57,7 +57,7 @@ void findWord(trieNode* root, int a[],int count,queue<string> &q,string s)
 	{
 		q.push(s);
 	}
-	for (int i = 0; i < 26; i++)
+	for (int i = 0; i < soKiTu; i++)
 	{
 		if (a[i] > 0&& root->next[i] != NULL)
 		{

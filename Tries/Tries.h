@@ -1,12 +1,12 @@
 #pragma once
 #include<iostream>
-
 using namespace std;
+
+const int soKiTu = 26; //so luong ki tu trong bang chu cai
 struct trieNode
 {
-	char value;
-	trieNode* next[26];
-	bool isWord;
+	trieNode* next[soKiTu]; // tro den cac node tuong ung voi ki tu tu a den z
+	bool isWord; // kiem tra xem phai la ket thuc cua 1 tu hay khong
 };
 trieNode* creatNode();
 void insert(trieNode* root, string s);
