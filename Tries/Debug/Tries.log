@@ -1,5 +1,7 @@
-﻿  main.cpp
+﻿  Tries.cpp
+G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\Tries.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
+  main.cpp
 G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\main.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\main.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
-  LINK : G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Debug\Tries.exe not found or not built by the last incremental link; performing full link
+G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Tries\main.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+  Generating Code...
   Tries.vcxproj -> G:\Tài liệu\ĐẠI HỌC\Năm 2\Cấu trúc dữ liệu và giải thuật\Challenge 2\Challenge-2-Tries\Debug\Tries.exe

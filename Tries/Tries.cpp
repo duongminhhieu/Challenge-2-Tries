@@ -1,4 +1,4 @@
-#include "Tries.h"
+﻿#include "Tries.h"
 
 
 trieNode* creatNode()
@@ -24,7 +24,7 @@ void insert(trieNode* root, string s)
 		}
 		p = p->next[idx];
 	}
-	p->isWord = 1; // danh dau la ket thuc cua mot tu
+	p->isWord = 1; // Đánh dấu kết thúc một từ
 }
 
 trieNode* creatTrieFromFile(string filename)

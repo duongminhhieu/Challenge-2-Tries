@@ -10,8 +10,7 @@ using namespace std;
 
 // Xây dựng cấu trúc Tries
 
-
-const int soKiTu = 26; //so luong ki tu trong bang chu cai
+const int soKiTu = 26; //Số lượng các ký tự trong bảng chữ cái
 
 struct trieNode
 {
@@ -20,7 +19,7 @@ struct trieNode
 };
 
 
-trieNode* creatNode();
-void insert(trieNode* root, string s);
-trieNode* creatTrieFromFile(string filename);
-void findWord(trieNode* root, int a[], int count, queue<string>& q, string s);
+trieNode* creatNode(); // hàm tạo một Node trên cây
+void insert(trieNode* root, string s); // hàm chèn 
+trieNode* creatTrieFromFile(string filename); // Hàm đọc file vào cây
+void findWord(trieNode* root, int a[], int count, queue<string>& q, string s); // Hàm tìm từ
