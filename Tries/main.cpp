@@ -1,14 +1,11 @@
-#include<iostream>
-#include<string>
-#include<fstream>
-#include<queue>
-#include"tries.h"
-using namespace std;
+
+#include "Tries.h"
+
 
 void main()
 {
 	string s;
-	cout << "Nhap cac ki tu" << endl;
+	cout << "Nhap cac ki tu: ";
 	getline(cin, s);
 	trieNode* root = creatTrieFromFile("Dic.txt");
 	int* a = new int[soKiTu]; // mang chua so lan xuat hien cua cac ki tu
@@ -30,4 +27,7 @@ void main()
 		cout << dsTu.front()<<endl;
 		dsTu.pop();
 	}
+
+	cout << endl << endl;
+	system("pause");
 }

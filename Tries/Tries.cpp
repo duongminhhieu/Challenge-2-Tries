@@ -1,9 +1,4 @@
-#include<iostream>
-#include<string>
-#include<fstream>
-#include<queue>
-#include"tries.h"
-using namespace std;
+#include "Tries.h"
 
 
 trieNode* creatNode()

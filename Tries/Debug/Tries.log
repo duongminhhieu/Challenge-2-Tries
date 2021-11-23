@@ -1,7 +1,8 @@
-﻿  Tries.cpp
-D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\Tries.cpp(23,20): warning C4018: '<': signed/unsigned mismatch
-  main.cpp
-D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\main.cpp(9,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
-D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\main.cpp(19,20): warning C4018: '<': signed/unsigned mismatch
+﻿  main.cpp
+D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\main.cpp(6,1): warning C4326: return type of 'main' should be 'int' instead of 'void'
+D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\main.cpp(16,20): warning C4018: '<': signed/unsigned mismatch
+  Tries.cpp
+D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Tries\Tries.cpp(18,20): warning C4018: '<': signed/unsigned mismatch
   Generating Code...
+  LINK : D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Debug\Tries.exe not found or not built by the last incremental link; performing full link
   Tries.vcxproj -> D:\Study\Tailieu\CTDL\challenge 2\Challenge-2-Tries\Debug\Tries.exe
